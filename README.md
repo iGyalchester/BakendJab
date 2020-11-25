@@ -3,7 +3,7 @@
 
 Creating a Simple Book Store API 
 
-### User stories - Create a backend API for a fake library:
+### User stories - Create a backend API for a fake Book store:
 - Endpoint needed to Get, Create, Update and Delete a Book 
 - Endpoint needed to get all of the books in the book store
 - Endpoint needed to get all of the books that belong to a category such as: "comic books"
