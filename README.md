@@ -11,6 +11,7 @@ Creating a Simple Book Store API
 - Endpoint needed to Get, Create, Update and Delete a Category of Books such as: Science Fiction Boks, Self help Books, etc 
 - Endpoint needed to get all category of books in the book store
 - Endpoint needed to get a category of books USING THE BOOK'S ID
+- API must have controllers, repositories and services
 
 ### Requirments describing each Book and Category:
 A Category must have the following: 
@@ -19,11 +20,9 @@ A Category must have the following:
 A Book must have the following: 
 - A unique way to identify the book in our system, a name, a sku, a description, a price, an Image, a status to indicate the book is active or not, and how many we have available in stock.
 
- A book to belong to a category!!!
+- A book MUST belong to a category!!!
 ```For example: The Head First Java book belongs in the self help category```
 
-- API must have controllers, repositories and services
-- Add a readme file with all your sample JSON test Payload for postman
 
 ### Requirments - You must do the following:
 - API must have a database of your choice
