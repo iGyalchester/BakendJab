@@ -10,7 +10,7 @@ Creating a Simple Book Store API
 - Endpoint needed to find books that contain a name such as: "Books with java in their name or the letter 'j' "
 - Endpoint needed to Get, Create, Update and Delete a Book Category such as: Science Fiction Books, Self help Books, etc 
 - Endpoint needed to get all category of books in the book store
-- Endpoint needed to get a category of books USING THE BOOK'S ID
+- Endpoint needed to get a book's category by USING THE BOOK'S ID
 - API must have controllers, repositories and services
 
 ### Requirments describing each Book and Category:
