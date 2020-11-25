@@ -1,110 +1,36 @@
-# A-Employee-Pie-Lab
+# A Quick Backend Jab (Jive-Turkey)
 
 
-Creating a payroll system (UML must be approved by Mikaila before you code)
+Creating a Simple Book Store API 
 
-### Part 1a - Create the following classes:
-- Person
-- Employee
-- SalariedEmployee
-- HourlyEmployee
-- Entrepreneur
-- HumanResources
-- HireDate
-- CheckCashingPlace
-### Part 1b - Create the following interface:
-- IPayable
+### User stories - Create a backend API for a fake library:
+- Endpoint needed to Get, Create, Update and Delete a Book 
+- Endpoint needed to get all of the books in the book store
+- Endpoint needed to get all of the books that belong to a category such as: "comic books"
+- Endpoint needed to find a books that contain a name such as: "Books with java in their name or the letter 'j' "
+- Endpoint needed to Get, Create, Update and Delete a Category of Books such as: Science Fiction Boks, Self help Books, etc 
+- Endpoint needed to get all category of books in the book store
+- Endpoint needed to get a category of books USING THE BOOK'S ID
 
-### Part 2 - Things Objects have
-- Every Person has a name
-- Employees and Entrepreneurs are people
-- Employees have an HireDate
-- HireDate has a month, date and year that are all text
-- SalariedEmployees have a salary
-- HourlyEmployees have hourlyRate and HoursWorked
+### Requirments describing each Book and Category:
+A Category must have the following: 
+- A unique way to identify the category and a name
 
-### Part 3a - Things Objects can do
-- There should be a method to **printBadge()** for any type of Employee in this format. 
-- There should be a way to **calculatePay()** for all types of people (Employees and Entrepreneurs)
-<pre><code>
-Name: James
-Type of employee: SalariedEmployee
-HireDate: 2/30/2020
+A Book must have the following: 
+- A unique way to identify the book in our system, a name, a sku, a description, a price, an Image, a status to indicate the book is active or not, and how many we have available in stock.
 
-Name: Mike
-Type of employee: HourlyEmployee
-HireDate: 3/19/1999
-</pre></code>
+ A book to belong to a category!!!
+```For example: The Head First Java book belongs in the self help category```
 
-**In the HumanResources Class, there should be methods that can:**
-- **issueBadge(which takes an array of Employees)** and prints each employees badge
-- **printPaymentInfo(Takes a payable person)** and prints out their payment information
-- **payPerson(which takes an array of people that are payable)** and prints their payment info
-<pre><code>
-Prior to sorting people by pay....
-SalariedEmployee should be paid : 1000.0
-HourlyEmployee should be paid : 400.0
-Entrepreneur should be paid : 20000.0
-</pre></code>
+- API must have controllers, repositories and services
+- Add a readme file with all your sample JSON test Payload for postman
 
-### Part 3b - Implement a custom way and method
-**sortPeopleByIncome(which takes an ArrayList of people that are payable)**
-- Then sorts them by pay and print outs their paymentInfo after sorting them
-<pre><code>
-After sorting people by pay...
-HourlyEmployee should be paid : 400.0
-SalariedEmployee should be paid : 1000.0
-Entrepreneur should be paid : 20000.0
-</pre></code>
+### Requirments - You must do the following:
+- API must have a database of your choice
+- API must have controllers, repositories and services
+- Add a readme file with all your sample JSON test Payload for postman
 
-
-### Part 4 - In the CheckCashing class (PSVM) do the following:
-
-- Create an Entrepreneur, Salaried andHourly Employee objects
-- Create an instance of the HumanResources class
-
-
-- Create an array of people that are Payable
-- Create an array of Employees that are payable
-
-- Invoke the issueBadge method that takes an array of  employees
-
-- Print out the text - “Prior to sorting by pay..”
-- Invoke the payPerson method that takes an array of  people
-
-- Initialize a new  ArrayList of payable People called unSortedPeople;
-- Add your Entrepreneur Object plus the  Salaried and Hourly Employee instances to your list.
-
-- Print out a blank line
-
-- Finally, invoke your sortPeopleByIncome method which accepts your list of unsortedPeople
-
-**Final Output once done should look like like this**
-
-<pre><code>
-Name: James
-Type of employee: SalariedEmployee
-HireDate: 2/30/2020
- 
-Name: Mike
-Type of employee: HourlyEmployee
-HireDate: 3/19/1999
- 
-Prior to sorting by pay...
-SalariedEmployee should be paid : 1000.0
-HourlyEmployee should be paid : 400.0
-Entrepreneur should be paid : 20000.0
-
-After sorting by pay...
-HourlyEmployee should be paid : 400.0
-SalariedEmployee should be paid : 1000.0
-Entrepreneur should be paid : 20000.0
-</pre></code>
-
-### Part 5 - You must now system out:
-- I freakin killed it then take a nice lil 30 minute break once your code has been reviewed by Mikaila
-
-
-
+### Code Review
+- We will have a 1-1 code review via zoom (breakout room) once completed. 
 
 
