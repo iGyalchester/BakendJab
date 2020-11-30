@@ -13,7 +13,7 @@ Creating a Simple Book Store API - demo - https://www.betterworldbooks.com/
 - Endpoint needed to get all category of books in the book store
 - Endpoint needed to get a book's category by USING THE BOOK'S ID
 
-### Requirments describing each Book and Category:
+### Backend Requirments describing each Book and Category:
 A Category must have the following:
 - A unique way to identify the category and a name
 
@@ -21,12 +21,20 @@ A Book must have the following:
 - A unique way to identify the book in our system, a name, a sku, a description, a price, an Image, a status to indicate the book is active or not, and how many we have available in stock.
 
 - A book MUST belong to a category!!!
-```For example: The Head First Java book belongs in the self help category```
+```For example: The Head First Java book belongs in the Text Books category```
 
 
 ### API Requirments - You must do the following:
 - API must have a database of your choice
 - API must have controllers, repositories and services
+
+### Frontend Requirements
+ - UI must be built with Angular AND Bootstrap
+ - UI must display list of books as a table or a grid
+ - When a user clicks on the image of the book, they should see more details about the book
+ - If a user ends up on the details page and wants to go back to the home page, ensure they can easily do so.
+ - UI should have a search box so a user can easily search for books by typing the name of the book in the search box
+ - UI should display the categoriesof books available and upon clicking should display only books in that category
 
 ### Code Review
 - We will have a 1-1 code review via zoom (breakout room) once completed.
