@@ -28,6 +28,7 @@ A Book must have the following:
 ### API Requirments - You must do the following:
 - API must have a database of your choice
 - API must have controllers, repositories and services
+- API must have LOGS
 
 ### Frontend Requirements
  - UI must be built with Angular AND Bootstrap
@@ -38,7 +39,11 @@ A Book must have the following:
  - UI should display the categoriesof books available and upon clicking should display only books in that category
 
 ### Code Review
-- We will have a 1-1 code review via zoom (breakout room) once completed.
+
+- We will have a 1-1 code review via zoom (breakout room) on TUESDAY.
 - Have your sample JSON test Payload for postman available to type in manually
+
+### PASSION PROJECT
+- ADD ONE MORE FEATURE THIS WEEKEND - YOUR CHOICE !!!
 
 
