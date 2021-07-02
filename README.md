@@ -43,10 +43,8 @@ A Book must have the following:
 - We will have a 1-1 code review via zoom (breakout room) on TUESDAY.
 - Have your sample JSON test Payload for postman available to type in manually
 
-### PASSION PROJECT
-- ADD ONE MORE FEATURE THIS WEEKEND - YOUR CHOICE !!!
 
-Demo UI
+# Demo UI of the assessment - make it your own
 
 ![Screen Shot 2020-11-30 at 5 24 54 PM (2)](https://user-images.githubusercontent.com/10773482/124328156-1839a200-db57-11eb-8450-6054e941f397.png)
 
