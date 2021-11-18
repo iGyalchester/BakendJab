@@ -12,7 +12,7 @@ Creating a Simple Book Store API - demo - https://www.betterworldbooks.com/
 search result displays java books like: `Head First Java, Thinking in java etc..` in the Text Books category`
 - Endpoint needed to Get, Create, Update and Delete a Book Category such as: Science Fiction Books, Self help Books, etc
 - Endpoint needed to get all category of books in the book store
-- Endpoint needed to get a book's category by USING THE BOOK'S ID
+- Endpoint needed to get a book's category by USING the book'S id
 
 ### Backend Requirments describing each Book and Category:
 A Category must have the following:
