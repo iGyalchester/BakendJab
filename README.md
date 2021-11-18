@@ -8,8 +8,8 @@ Creating a Simple Book Store API - demo - https://www.betterworldbooks.com/
 - Endpoint needed to Get, Create, Update and Delete a Book
 - Endpoint needed to get all of the books in the book store
 - Endpoint needed to get all of the books that belong to a category such as: "comic books"
-- Endpoint needed to search/find books that contain a name such as: "java" in their name or the letter 'j' "
-- ```search result displays java books like: Head First Java, Thinking in java etc.. in the Text Books category```
+- Endpoint needed to search/find books that contain a name such as: "java" in their name or the letter `j` "
+- `search result displays java books like: Head First Java, Thinking in java etc.. in the Text Books category`
 - Endpoint needed to Get, Create, Update and Delete a Book Category such as: Science Fiction Books, Self help Books, etc
 - Endpoint needed to get all category of books in the book store
 - Endpoint needed to get a book's category by USING THE BOOK'S ID
@@ -22,13 +22,13 @@ A Book must have the following:
 - A unique way to identify the book in our system, a name, a sku, a description, a price, an Image, a status to indicate the book is active or not, and how many we have available in stock.
 
 - A book MUST belong to a category!!!
-```For example: The Head First Java book belongs in the Text Books category```
+`For example: The Head First Java book belongs in the Text Books category`
 
 
 ### API Requirments - You must do the following:
 - API must have a database of your choice
 - API must have controllers, repositories and services
-- API must have LOGS
+- API must have LOGS to log activities 
 
 ### Frontend Requirements
  - UI must be built with Angular AND Bootstrap
@@ -40,8 +40,8 @@ A Book must have the following:
 
 ### Code Review
 
-- We will have a 1-1 code review via zoom (breakout room) on TUESDAY.
-- Have your sample JSON test Payload for postman available to type in manually
+- We will have a 1-1 code review via zoom (breakout room) on due date.
+- Have your sample JSON test Payload for postman available to use during code review
 
 
 # Demo UI of the assessment - make it your own
