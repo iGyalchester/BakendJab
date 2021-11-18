@@ -9,7 +9,7 @@ Creating a Simple Book Store API - demo - https://www.betterworldbooks.com/
 - Endpoint needed to get all of the books in the book store
 - Endpoint needed to get all of the books that belong to a category such as: "comic books"
 - Endpoint needed to search/find books that contain a name such as: "java" in their name or the letter `j` "
-- `search result displays java books like: Head First Java, Thinking in java etc.. in the Text Books category`
+search result displays java books like: `Head First Java, Thinking in java etc..` in the Text Books category`
 - Endpoint needed to Get, Create, Update and Delete a Book Category such as: Science Fiction Books, Self help Books, etc
 - Endpoint needed to get all category of books in the book store
 - Endpoint needed to get a book's category by USING THE BOOK'S ID
